@@ -1,0 +1,228 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+
+body{
+	border: 0px;
+	margin: 8px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14pt;
+
+    @font-face {
+    font-family: 'Adobe Arabic';
+src: url('../font/adobe-arabic.ttf');
+}
+
+}
+
+.main{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    /*margin-bottom: 10%;*/
+}
+
+.left{
+    margin: 10pt;
+    margin-left: 3%;
+    /*margin-right: 10%;*/
+    width: 400pt;
+    height: 300pt;
+    /*position: fixed;*/
+    /*float: left;*/
+}
+
+
+.center{
+    /*margin: 0pt;*/
+    margin-left: 5%;
+}
+
+.right{
+    margin: 10pt;
+    margin-left: 5%;
+    /*margin-top: -15%;*/
+    width: 500pt;
+    height: 300pt;
+    /*position: fixed;*/
+    /*float: right;*/
+}
+/*.list {
+    margin-left: 10%;
+    margin-top: 7%;
+    position: fixed;
+    float: left;
+    font-size: 13pt;
+    font-weight: bold;
+
+}*/
+
+a:link{
+    color: #170CB5;
+    text-decoration: none;
+
+}
+a:active {
+    color: #170CB5;
+    text-decoration: none;
+}
+a:hover{
+    color: red !important;
+    text-decoration: none;
+    }
+a:visited{
+    color: #170CB5;
+    text-decoration: none;
+}
+
+
+.name {
+    /*margin-left: 10%;*/
+    /*margin-top: 2%;*/
+    /*margin-right: auto;*/
+    /*position: fixed;*/
+    float: left;
+    font-size: 14pt;
+    line-height: 1.50;
+    width: 50%;
+ /*text-align: justify;*/
+
+
+}
+
+.namefa {
+    /*margin-right: auto;*/
+    margin-left: 80%;
+    /*margin-bottom: 20%;*/
+    margin-top: -92%;
+    width: 50%;
+    height: 300pt;
+    float: right;
+    text-align: justify;
+    float: left;
+    text-align: right;
+    font-size: 14pt;
+    line-height: 1.50;
+ font-family: 'Adobe Arabic', serif;
+
+  src: url('../font/adobe-arabic.ttf');
+}
+#pbteng {
+
+    /*position: fixed;*/
+    height: 272px;
+    margin-right: 5%;
+    float: left;
+    margin-top: 3pt;
+    /*margin: auto;*/
+}
+
+#pbtenglogo {
+
+    /*position: fixed;*/
+    height: 250px;
+    float: left;
+    /*margin-left: 370pt;*/
+    margin-top: 3%;
+    margin-left: 7%;
+}
+#pbtfalogo {
+
+    /*position: fixed;*/
+    height: 240px;
+    float: right;
+    /*margin-left: 370pt;*/
+    margin-top: 3%;
+    margin-right: 10%;
+}
+
+#pbtfa {
+    /*margin-left: 7%;*/
+    margin-top: -20pt;
+    height: 267pt;
+    /*float: right;*/
+}
+
+.logorow{
+    margin: 10pt;
+    /*margin-right: 7%;*/
+    margin-top: -15%;
+    margin-left: 40%;
+    width: 300pt;
+    height: 150pt;
+    /*position: fixed;*/
+    float: left; 
+}
+#logo{
+    margin: 0 auto;
+    margin-left: 7pt;
+    margin-right: 23pt;
+    margin-top: 10pt;
+    height: 70pt;
+    float: left;
+}
+
+#poster{
+    margin: 0 auto;
+    /*margin-left: 7pt;*/
+    /*margin-right: 23pt;*/
+    margin-top: 10pt;
+    width: 330pt;
+    float: left;
+}
+
+.content{
+
+    width: 52%;
+    height: 300pt;
+    float: left;
+    /*position: relative;*/
+    margin-left: 30pt;
+    margin-top: 3%;
+    margin-bottom: 20%;
+    font-size: 14pt;
+    line-height: 1.25;
+    text-align: justify;
+ 
+}
+.contentfa{
+
+    width: 50%;
+    height: 300pt;
+    float: right;
+    text-align: justify;
+    /*position: relative;*/
+    margin-right: 30pt;
+    margin-top: 3%;
+    margin-bottom: 20%;
+    font-size: 14pt;
+    line-height: 1.25;
+    font-family: 'Adobe Arabic', serif;
+
+  src: url('../font/adobe-arabic.ttf');
+ 
+}
+.rotate{
+    -webkit-transition-duration: 6s;
+    -moz-transition-duration: 6s;
+    -o-transition-duration: 6s;
+    transition-duration: 6s;
+     
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+     
+    overflow:hidden;
+ 
+    }  
+ 
+.rotate:hover  
+{
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+} 
